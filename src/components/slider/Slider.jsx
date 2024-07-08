@@ -55,3 +55,5 @@ function Slider({images}) {
         </div>
     )
 }
+
+export default Slider

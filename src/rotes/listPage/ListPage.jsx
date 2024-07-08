@@ -1,7 +1,7 @@
 import {listData} from "../../lib/dummydata";
 import "./listPage.scss";
 import Filter from "../../components/fliter/Filter";
-import card from "../../components/card/Card";
+// import card from "../../components/card/Card";
 import Map from "../../components/map/Map";
 function ListPage() {
 

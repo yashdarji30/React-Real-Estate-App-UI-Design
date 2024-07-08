@@ -1,11 +1,13 @@
-import { useState } from 'react'
-import Navbar from "./components/navbar/Navbar";
+// import { useState } from 'react'
+// import Navbar from "./components/navbar/Navbar";
 // import "./layout.scss"
-import HomePage from './rotes/j/Homepage';
+import HomePage from './rotes/HomePage/HomePage';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import ListPage from './rotes/layout/Layout';
+// import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ListPage from './rotes/listPage/ListPage';
 import Layout from './rotes/layout/Layout';
+import ProfilePage from './rotes/profilePage/ProfilePage';
+import SinglePage from './rotes/singlePage/SinglePage';
 import './App.css'
 
 function App() {
@@ -26,6 +28,10 @@ function App() {
             {
               path: "/:id",
               element: <SinglePage />
+            },
+            {
+              path: "/profile",
+              element: <ProfilePage />
             }
           ]
         }

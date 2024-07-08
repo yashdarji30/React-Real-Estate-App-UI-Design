@@ -1,5 +1,4 @@
-import './fliter.scss';
-
+import './filter.scss';
 function Filter() {
     return(
         <div className='fliter'>

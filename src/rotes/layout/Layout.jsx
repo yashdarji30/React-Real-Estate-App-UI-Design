@@ -1,5 +1,6 @@
 import './layout.scss';
 import Navbar from '../../components/navbar/Navbar';
+import { Outlet } from 'react-router-dom';
 
 function Layout() {
     return(
@@ -15,3 +16,4 @@ function Layout() {
     )
 
 }
+export default Layout

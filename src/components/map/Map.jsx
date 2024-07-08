@@ -1,7 +1,7 @@
 import {MapContainer,TileLayer} from 'react-leaflet';
 import './map.scss'
 import "leaflet/dist/leaflet.css";
-import Pin from "../pin/Pin";
+import Pin from '../../pin/Pin';
 // const position = [23.02579, 72.58727]
 
 function Map(items) {
@@ -18,7 +18,7 @@ function Map(items) {
   </MapContainer>
     )
 }
-        
+export default Map
  
 
 

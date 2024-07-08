@@ -1,4 +1,4 @@
-import './pinscss';
+import './pin.scss';
 import {Marker,Popup} from 'react-leaflet';
 function Pin(item) {
     return(
@@ -8,7 +8,7 @@ function Pin(item) {
             <img src={img.img} alt =""/>
             <div className='textContainer'>
                 <Link to={`/${item.id}`}>{item.title}</Link>
-                <span>{item.bedrooms}</span>
+                <span>{item.bedroom}</span>
                 <b>$ {item.price}</b>
             </div>
          </div>
