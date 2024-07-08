@@ -1,13 +1,16 @@
 .filter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     h1{
-        font-size: 24;
+        font-size: 24px;
         font-weight: 300;
     }
 
     .item{
         display: flex;
         flex-direction: column;
-        gap: 2;
+        gap: 2px;
 
         label{
             font-size: 10px;
@@ -29,6 +32,7 @@
     .bottom{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         gap: 20px;
 
         button {

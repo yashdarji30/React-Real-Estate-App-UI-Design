@@ -1,7 +1,7 @@
 import {listData} from "../../lib/dummydata";
 import "./listPage.scss";
 import Filter from "../../components/fliter/Filter";
-// import card from "../../components/card/Card";
+import Card from "../../components/card/Card"; 
 import Map from "../../components/map/Map";
 function ListPage() {
 
@@ -11,7 +11,7 @@ function ListPage() {
         <div className="wrapper">
             <Filter />
             {data.map(item =>(
-                <card key={item.id} item={item}/>
+                <Card key={item.id} item={item}/>
             ))}
         </div>
     </div>

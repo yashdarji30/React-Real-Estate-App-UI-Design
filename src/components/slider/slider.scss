@@ -5,6 +5,10 @@
     display: flex;
     gap: 20px;
 
+    @include sm{
+        height: 280px;
+    }
+
     .fullSlider{
         position: absolute;
         width: 100vw;
@@ -13,9 +17,9 @@
         left: 0;
         background-color: black;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        z-index: 99999;
+        z-index: 9999;
 
         .arrow{
             flex: 1;
@@ -70,6 +74,9 @@
 
     .bgImage{
         flex: 3;
+        @include sm{
+            flex: 2;
+        }
     }
 
     .smallImages{
@@ -79,8 +86,16 @@
         justify-content: space-between;
         gap: 20px;
 
+        @include sm{
+            flex: 1;
+        }+
+
         img{
             height: 100px;
+
+            @include sm{
+                height: 80px;
+            }
         }
     }
 }
