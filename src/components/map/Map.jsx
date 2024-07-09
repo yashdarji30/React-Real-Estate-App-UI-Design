@@ -3,8 +3,6 @@ import './map.scss'
 import "leaflet/dist/leaflet.css";
 import Pin from '../pin/Pin';
 
-// const position = [23.02579, 72.58727]
-
 function Map({items}){
   return (
     <MapContainer center={[23.02579, 72.58727]} zoom={7} scrollWheelZoom={false} className='map'>

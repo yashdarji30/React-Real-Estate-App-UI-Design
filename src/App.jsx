@@ -1,5 +1,5 @@
 // import "./layout.scss"
-import HomePage from './rotes/HomePage/HomePage';
+import HomePage from './rotes/homepage/HomePage';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import ListPage from './rotes/listPage/ListPage';
 import Layout from './rotes/layout/Layout';

@@ -11,10 +11,11 @@ function Pin({item}) {
                 <Link to={`/${item.id}`}>{item.title}</Link>
                 <span>{item.bedroom} bedroom</span>
                 <b>$ {item.price}</b>
+                <b>{item.address}</b>
             </div>
          </div>
       </Popup>
     </Marker>
-    )
+    );
 }
-export default Pin
+export default Pin;
